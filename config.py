@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "")
 DB_URI = ""
 DB_NAME = os.environ.get("DATABASE_NAME", "")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "364fa032caeff1e9a71271382b1f6104dfe8185b")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/HOW_TO_OPNE_LINK")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/Backbencherskabackupchannel/101")
 
 
 #force sub channel id, if you want enable force sub
