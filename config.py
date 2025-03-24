@@ -31,11 +31,11 @@ PORT = os.environ.get("PORT", "8091")
 DB_URI = "mongodb+srv://Bapusarkarbjppvt:2HqLJGdyuBCclxDz@cluster0.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "tokenbotbyme")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "api.modijiurl.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "364fa032caeff1e9a71271382b1f6104dfe8185b")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Shortner.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "12ceb34b98e4ae236d49ec2e1fce0a36bd8580c7")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/Backbencherskabackupchannel/101")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/Backbencherskabackupchannel/247")
 
 
 #force sub channel id, if you want enable force sub
