@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", ":")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7903792217:AAHLWJleXZZ1Du5NxqumMqgWrFagxRUcZzY")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28154335"))
+APP_ID = int(os.environ.get("APP_ID", "21231609"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "aef12a0730d581f9d5fe85ff92d798eb")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002308677906"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002401227937"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7550106593"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7490978976"))
 
 #Port
 PORT = os.environ.get("PORT", "8091")
 
 #Database 
-DB_URI = "mongodb+srv://:2HqLJGdyuBCclxDz@cluster0.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-DB_NAME = os.environ.get("DATABASE_NAME", "tokenbotbyme")
+DB_URI = "mongodb+srv://:2HqLJGdyuBCclxDz@cluster0.khmongodb+srv://Bapusarkarbjppvt:2HqLJGdyuBCclxDz@cluster0.khf1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0f1x.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Shortner.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "inShortUrl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "4943e4169c0683d4df1dc7a557dfc743d4bbf25d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","")
@@ -48,8 +48,8 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>👋👋 Hey {first} ! </b>\n\n<b>I'm a File Store Bot🤖...! </b>\n\nI Can <b>Store Private Files</b> in Specified Channel and other users can access Private Files From a Special Link....!\n\n⚡<b>Powered By - </b>@NextGenBotz")
 try:
-    ADMINS=[7550106593]
-    for x in (os.environ.get("ADMINS", "").split()):
+    ADMINS=[7490978976]
+    for x in (os.environ.get("ADMINS", "7490978976").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -70,7 +70,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(7550106593)
+ADMINS.append(7490978976)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
